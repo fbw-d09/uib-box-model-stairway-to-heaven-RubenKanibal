@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+
+/* ERSTE TREPPE: */
+
+#bigdiv {
+    width: 500px;
+    height: 500px;
+    border: 10px solid rgb(252, 81, 186);
+}
+
+#box1 {
+    width: 105px;
+    height: 105px;
+    background-color: lime;
+    border: 10px grey solid;
+    margin-top: 375px;
+    margin-bottom: 0px;
+}
+
+#box2 {
+    width: 125px;
+    height: 125px;
+    background-color: lime;
+    margin-top: 250px;
+    margin-bottom: 125px;
+}
+
+#box3 {
+    width: 105px;
+    height: 105px;
+    background-color: lime;
+    border: 10px grey solid;
+    margin-top: 125px;
+    margin-bottom: 250px;
+}
+
+#box4 {
+    width: 125px;
+    height: 125px;
+    background-color: lime;
+    margin-top: 0px;
+    margin-bottom: 375px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+/* ZWEITE TREPPE: */
+
+#bigdiv2 {
+    width: 500px;
+    height: 500px;
+    border: 10px solid white;
+}
+
+#box5 {
+    width: 105px;
+    height: 105px;
+    background-color: yellow;
+    border: 10px rgb(255, 111, 0) solid;
+}
+
+#red1 {
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    padding-left: 125px;
+}
+
+#red2 {
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    padding-left: 250px;
+}
+
+#red3 {
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    padding-left: 375px;
+}
